@@ -62,17 +62,6 @@ class MyAdapter(val context : Activity, val dataList : List<Data>) :
 
         holder.play.setOnClickListener{
             mediaPlayer.start()
-//            if (currentMusic != null) {
-//                currentMusic?.stop()
-//                currentMusic?.release()
-//            }
-//            // Create and start the new MediaPlayer for the current item.
-//            val mediaPlayer = MediaPlayer.create(context, current.preview.toUri())
-//            mediaPlayer.start()
-//
-//            // Set the global variable to the new MediaPlayer.
-//            currentMusic = mediaPlayer
-
         }
 
         holder.pause.setOnClickListener{
